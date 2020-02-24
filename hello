@@ -3,7 +3,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
- 
+public class Main
+{
     public static void main(String[] args) throws ParseException {
         System.out.println("HELLo World!");
         Scanner in = new Scanner(System.in);
@@ -34,3 +35,4 @@ import java.util.Scanner;
         }
         return result;
     }
+ }
